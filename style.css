@@ -11,8 +11,9 @@
   --glass: rgba(255, 255, 255, 0.04);
   --border: rgba(127, 175, 255, 0.15);
   --radius: 18px;
-  --font-display: 'Orbitron', sans-serif;
-  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-body: 'Quicksand', system-ui, sans-serif;
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -21,7 +22,7 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font-body);
-  background: radial-gradient(ellipse at top, #0b1a3d 0%, var(--space) 40%, var(--black) 100%);
+  background: #05040d;
   background-attachment: fixed;
   color: var(--white);
   line-height: 1.7;
@@ -58,9 +59,9 @@ ul { list-style: none; }
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(circle at 20% 30%, rgba(47, 107, 255, 0.18), transparent 45%),
-    radial-gradient(circle at 80% 70%, rgba(127, 211, 255, 0.12), transparent 50%);
-  filter: blur(40px);
+    radial-gradient(ellipse 60% 45% at 50% 22%, rgba(214, 200, 255, 0.85) 0%, rgba(150, 110, 255, 0.55) 22%, rgba(90, 60, 200, 0.28) 45%, transparent 70%),
+    radial-gradient(ellipse 50% 35% at 50% 90%, rgba(120, 90, 230, 0.25), transparent 70%);
+  filter: blur(30px);
   animation: drift 20s ease-in-out infinite alternate;
 }
 @keyframes drift {
@@ -87,10 +88,10 @@ ul { list-style: none; }
   padding: 12px 6%;
 }
 .logo {
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 1.4rem;
-  letter-spacing: 2px;
+  font-family: var(--font-script);
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0;
   background: linear-gradient(135deg, #fff, var(--blue-bright));
   -webkit-background-clip: text;
   background-clip: text;
@@ -181,11 +182,11 @@ ul { list-style: none; }
   margin-bottom: 14px;
 }
 .hero-name {
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: clamp(2.2rem, 7vw, 5rem);
+  font-family: var(--font-script);
+  font-weight: 400;
+  font-size: clamp(3.2rem, 11vw, 7rem);
   line-height: 1.1;
-  letter-spacing: 2px;
+  letter-spacing: 0;
   margin-bottom: 18px;
   text-shadow: 0 0 40px rgba(47, 107, 255, 0.35);
 }
