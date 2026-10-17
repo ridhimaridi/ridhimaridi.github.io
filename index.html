@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rayan Chowdhury Ridi | Portfolio</title>
+  <meta name="description" content="Portfolio of Rayan Chowdhury Ridi, Computer Science and Engineering student and web developer from Dhaka, Bangladesh.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Starfield background -->
+  <div class="stars" id="stars" aria-hidden="true"></div>
+  <div class="nebula" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">RR<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="orbit" aria-hidden="true">
+        <div class="planet"></div>
+      </div>
+      <p class="eyebrow reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal">Rayan Chowdhury <span class="gradient-text">Ridi</span></h1>
+      <p class="hero-role reveal">Computer Science &amp; Engineering Student</p>
+      <p class="hero-location reveal">Dhaka, Bangladesh</p>
+      <div class="hero-buttons reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <h2 class="section-title reveal"><span>01.</span> About Me</h2>
+      <div class="about-grid">
+        <p class="about-text reveal">
+          Enthusiastic and detail-oriented Computer Science and Engineering student at the
+          <strong>International University of Business Agriculture and Technology (IUBAT)</strong>,
+          with a strong interest in software engineering, web development, and database systems.
+        </p>
+        <p class="about-text reveal">
+          I aim to apply programming knowledge and analytical thinking to real-world challenges,
+          collaborate with experienced professionals, and build innovative software that makes a difference.
+        </p>
+        <div class="info-cards reveal">
+          <div class="info-card"><span>Location</span><p>Dhaka, Bangladesh</p></div>
+          <div class="info-card"><span>CGPA</span><p>3.78 / 4.00</p></div>
+          <div class="info-card"><span>Languages</span><p>Bengali · English</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <h2 class="section-title reveal"><span>02.</span> Education</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024 – 2028</span>
+            <h3>BSc in Computer Science &amp; Engineering</h3>
+            <p class="org">IUBAT, Dhaka, Bangladesh</p>
+            <p class="score">CGPA: 3.78 / 4.00</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2023</span>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="org">Dhaka City College · Science Group</p>
+            <p class="score">GPA: 4.92 / 5.00</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2021</span>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="org">Motijheel Government High School · Science Group</p>
+            <p class="score">GPA: 5.00 / 5.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <h2 class="section-title reveal"><span>03.</span> Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3>Programming Languages</h3>
+          <div class="chips"><span>C</span><span>C++</span><span>C#</span><span>Java</span><span>Python</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Frontend Development</h3>
+          <div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Backend Development</h3>
+          <div class="chips"><span>ASP.NET Core</span><span>REST APIs</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Database Systems</h3>
+          <div class="chips"><span>MySQL</span><span>Microsoft SQL Server</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Development Tools</h3>
+          <div class="chips"><span>Visual Studio</span><span>VS Code</span><span>Git</span><span>GitHub</span></div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Core Knowledge</h3>
+          <div class="chips"><span>OOP</span><span>Data Structures</span><span>Algorithms</span><span>DBMS</span><span>Software Engineering</span></div>
+        </div>
+      </div>
+
+      <h3 class="sub-title reveal">Soft Skills</h3>
+      <div class="soft-skills reveal">
+        <span>Analytical Thinking</span>
+        <span>Teamwork</span>
+        <span>Communication</span>
+        <span>Time Management</span>
+        <span>Adaptability</span>
+        <span>Attention to Detail</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <h2 class="section-title reveal"><span>04.</span> Academic Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-number">01</div>
+          <h3>BloodLink</h3>
+          <p class="project-sub">Blood Donor &amp; Request Management System</p>
+          <p>A web-based platform concept connecting blood donors with people seeking donations, with registration, donor profiles, and blood request modules.</p>
+          <div class="chips"><span>C#</span><span>ASP.NET Core</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <h3>Smart Expense Tracker</h3>
+          <p class="project-sub">Personal Finance Application</p>
+          <p>Records income and expenses with category-based organization, monthly summaries, and a simple interface for managing financial records.</p>
+          <div class="chips"><span>C#</span><span>SQL Server</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <h3>University Event Portal</h3>
+          <p class="project-sub">Event Publishing &amp; Registration</p>
+          <p>A website concept for publishing university events, handling student registrations, and managing participant information.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <h2 class="section-title reveal"><span>05.</span> Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">June 2025 – August 2025</span>
+            <h3>Junior Web Development Intern</h3>
+            <p class="org">ByteCraft Technologies · Dhaka, Bangladesh</p>
+            <ul>
+              <li>Assisted in developing responsive web pages using HTML, CSS, and JavaScript.</li>
+              <li>Supported implementation and testing of basic website features.</li>
+              <li>Worked with developers to identify interface issues and improve usability.</li>
+              <li>Used Git and GitHub for version control and collaboration.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-title reveal">Certifications</h3>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <h4>Web Development Fundamentals</h4>
+          <p>freeCodeCamp · 2025</p>
+        </div>
+        <div class="cert-card reveal">
+          <h4>Introduction to Programming with C#</h4>
+          <p>Microsoft Learn · 2025</p>
+        </div>
+        <div class="cert-card reveal">
+          <h4>Git and GitHub Essentials</h4>
+          <p>Coursera · 2025</p>
+        </div>
+      </div>
+
+      <h3 class="sub-title reveal">Activities</h3>
+      <ul class="activity-list reveal">
+        <li>Participated in an inter-university programming contest.</li>
+        <li>Contributed to collaborative academic software development projects.</li>
+        <li>Attended university seminars on emerging technologies and software engineering.</li>
+        <li>Took part in peer-learning sessions focused on programming and problem-solving.</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <h2 class="section-title reveal"><span>06.</span> Get In Touch</h2>
+      <p class="contact-lead reveal">
+        I'm currently open to internship opportunities, collaborations, and interesting software projects.
+        Let's build something great together.
+      </p>
+      <a href="mailto:rayan.ridi.cse@gmail.com" class="btn btn-primary big reveal">Say Hello</a>
+      <div class="social reveal">
+        <a href="mailto:rayan.ridi.cse@gmail.com" aria-label="Email">Email</a>
+        <a href="https://linkedin.com/in/rayan-chowdhury-ridi" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/rayanridi" target="_blank" rel="noopener">GitHub</a>
+        <a href="tel:+8801700456789">Phone</a>
+      </div>
+      <p class="contact-info reveal">+880 1700-456789 · rayan.ridi.cse@gmail.com</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed &amp; built by Rayan Chowdhury Ridi · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
